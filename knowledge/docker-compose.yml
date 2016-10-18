@@ -1,0 +1,7 @@
+docker-knowledge:
+  image: koda/docker-knowledge
+  volumes: 
+    - /srv/docker/dockerlab/knowledge/data:/root/.knowledge
+  ports:
+    - 8881:8080
+  restart: always
